@@ -5,7 +5,15 @@ const NavBar = () => {
     <div>
       <nav className="navbar bg-body-tertiary">
         <div className="container-fluid">
-          <Link to={'/add'} className="navbar-brand">Add Contact</Link>
+          <Link to={"/add"} className="navbar-brand btn btn-success text-light">
+            Add Contact
+          </Link>
+          <Link
+            to={"/"}
+            className="navbar-brand btn btn btn-success text-light"
+          >
+            Home
+          </Link>
           <form className="d-flex" role="search">
             <input
               className="form-control me-2"
